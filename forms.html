@@ -13,9 +13,16 @@
 </head>
 <body>
     <h1>Forms in Html</h1>
-    <form action="url" method="GET">
-        <label for="">First Name</label><!-- sdd label that to input name -->
-        <input type="text" placeholder="Prateek" name="" id=""><!-- in placeholder we caan write our name -->
+    <form action="url" method="GET"><!-- get type method se data clear text form se jayega -->
+        <label for="firstname">First Name</label><!-- add label that to input name -->
+        <input style="padding: 8px 15px;" type="text" placeholder="First Name" name="" id="firstname"><!-- in placeholder we caan write our name -->
     </form>
+    <form action="url" method="GET" accept-charset="UTF-8" autocomplete="off" enctype="">
+        <label for="lastname">Last Name</label><!-- write lastname (without space) in for and id to highlight the text when click on label -->
+        <input style="padding: 8px 15px;" type="text" placeholder="Last Name" name="" id="lastname">
+    </form>
+    <br>
+    <button style="font-size: 20px; padding: 8px 15px" type="submit">Submit</button>
+
 </body>
 </html>

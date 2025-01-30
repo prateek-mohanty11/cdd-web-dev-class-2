@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            background-color: #414141;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms in Html</h1>
+    
+    <form action="url" method="GET" accept-charset="UTF-8" autocomplete="off" enctype="">
+        <label for="fname">First Name</label><!-- write lastname (without space) in for and id to highlight the text when click on label -->
+        <input style="padding: 9px 8px;" type="text" placeholder="First Name" value="" id="fname">
+        <br>
+        <label for="password">Password</label><!-- password label -->
+        <input style="font-size: 20px; padding: 5px 8px" placeholder="password" type="password" name="" id="password"><!-- password input -->
+        <br>
+        <input type="week" name="" id=""><!-- week count -->
+        <!-- selection -->
+        <select name="Editing app" id="" multiple><!-- multiple to select multiple -->
+            <option value="Capcut">Capcut</option>
+            <option value="Alightmotion">AlightMotion</option>
+        </select>
+        <input type="image" src="" alt="jpg"><!-- image -->
+        <input type="hidden" name="">
+        <input style="font-size: 20px; padding: 5px 8px" type="reset" value="reset"><!-- Reset -->
+        <input type="range" name="volume" id="volume" min="0" max="100"><!-- range (for volume) -->
+        <button style="font-size: 20px; padding: 5px 8px" type="submit">Submit</button><!-- submit -->
+    </form>
+</body>
+</html>

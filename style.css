@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 0px;
+}
+.c1{
+    border: 6px solid red;
+    margin: 20px;
+    padding: 20px;
+    color: magenta;
+    background-color: black;
+}
+.c2{
+    border: 6px solid blue ;
+    margin: 20px;
+    padding: 20px;
+    color: magenta;
+    background-color: black;
+}
+.c3{
+    border: 6px solid yellow;
+    margin: 20px;
+    padding: 20px;
+    color: magenta;
+    background-color: black;
+}
+
+h1{
+    margin-left: 680px;
+}
+
+button{
+    margin-left: 625px;
+    font-size: 22px; padding: 12px 25px;
+}
+
